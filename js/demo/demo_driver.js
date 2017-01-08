@@ -68,6 +68,6 @@
         }
     });
 
-    var df = new DataFetcher("server12", 1000);
+    var df = new DataFetcher("server1", 1000);
     df.start();
 })();

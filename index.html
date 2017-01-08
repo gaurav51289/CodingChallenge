@@ -6,22 +6,31 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
 
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="js/vendor/jquery.mockjax.min.js"></script>
+        <!-- <script src="js/vendor/jquery.mockjax.min.js"></script> -->
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-mocks.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-sanitize.js"></script>
+        <script src="./js/angularjs/indexAngular.js" type="text/javascript"></script>
+        <script src="./js/mockbackend/e2e.js"></script>
         <!--
             Add your allowed additional libraries/frameworks here
             you can use CDN or local files (put them under the "vendor" folder).
         -->
     </head>
-    <body>
-        <ol id="mockAPIResponse">
-            <!-- For demo only, feel free to remove this div during your development -->
-        </ol>
+    <body ng-app="myBackEnd" ng-cloak>
+        <!-- <script src="js/mockAPIs.js"></script> -->
+        <div ng-controller="MainCtrl as $ctrl">
 
-        <script src="js/mockAPIs.js"></script>
+        </div>
         <!--
             The below script is for demo purpose only,
             remove it before starting development.
         -->
-        <script src="js/demo/demo_driver.js"></script>
+        <!-- <script src="js/demo/demo_driver.js"></script> -->
     </body>
 </html>
