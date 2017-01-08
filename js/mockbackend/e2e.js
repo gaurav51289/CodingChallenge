@@ -1,8 +1,8 @@
 (function(angular) {
   'use strict';
-var myAppDev = angular.module('myAppE2E', ['indexApp', 'ngMockE2E']);
+var myBackEnd = angular.module('myBackEnd', ['indexApp', 'ngMockE2E']);
 
-myAppDev.run(function($httpBackend) {
+myBackEnd.run(function($httpBackend) {
 
   function generateResponse(startTime, endTime, serverID) {
       function getRandomNumber(upperBound) {
