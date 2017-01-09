@@ -3,18 +3,18 @@
 ### Install & Run
 1. Make sure to have Node.js (v4.x.x and above) installed globally.
 1. Clone the repository
-    ```sh
-    $ git clone https://github.com/gaurav51289/CodingChallenge.git
-    ```
+```
+$ git clone https://github.com/gaurav51289/CodingChallenge.git
+```
 1. Install dependencies
-    ```sh
-    $ cd CodingChallenge
-    $ npm install
-    ```
+```
+$ cd CodingChallenge
+$ npm install
+```
 1. Start server
-    ```sh
-    $ npm run start
-    ```
+```
+$ npm run start
+```
 4. Go to any of the IPs prompted on the terminal.
 
 ### Usage
