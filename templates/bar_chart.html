@@ -1,0 +1,115 @@
+
+
+<div class="row">
+  <div class="col-lg-12">
+    <rd-widget>
+      <rd-widget-header title="What do you want to monitor?">
+      </rd-widget-header>
+      <rd-widget-body>
+        <div class="row">
+          <div class="col-lg-8">
+            <form>
+              <label>
+                Time Range :
+              </label>
+              <input class="form-control" type="text" ng-model="datePickerDate" />
+            </form>
+          </div>
+        </div>
+      </rd-widget-body>
+      <rd-widget-body>
+        <div class="row">
+          <div class="col-lg-12">
+            <form>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" ng-model="resourceType" ng-click="changeResource(1)" value="1">CPU Usage
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" ng-model="resourceType" ng-click="changeResource(2)" value="2">Memory Usage
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" ng-model="resourceType" ng-click="changeResource(3)" value="3">Memory Available
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" ng-model="resourceType" ng-click="changeResource(4)" value="4">Network Packet
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" ng-model="resourceType" ng-click="changeResource(5)" value="5">Network Throughput
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" ng-model="resourceType" ng-click="changeResource(6)" value="6">Errors
+              </label>
+            </form>
+          </div>
+        </div>
+      </rd-widget-body>
+    <rd-widget>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+    <rd-widget>
+      <rd-widget-body>
+        <div class="row">
+          <div id="bar-chart-div" class="col-lg-10">
+            
+          </div>
+        </div>
+      </rd-widget-body>
+    <rd-widget>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="configModal" tabindex="-1" role="dialog" aria-labelledby="configModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Configure Chart</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Chart Title</label>
+                <div class="col-sm-8">
+                  <input ng-model="chtit" placeholder="Enter new Chart Title" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">X-Axis Label</label>
+                <div class="col-sm-8">
+                  <input ng-model="xlab" placeholder="Enter new X Label" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Y-Axis Label</label>
+                <div class="col-sm-8">
+                  <input ng-model="ylab" placeholder="Enter new Y Label" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Chart Color</label>
+                <div class="col-sm-8">
+                  <input ng-model="ccol" placeholder="#AABBCC or blue" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" ng-click="loadConfiguredChart()" data-dismiss="modal">Save & Reload</button>
+      </div>
+    </div>
+  </div>
+</div>

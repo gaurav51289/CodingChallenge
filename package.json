@@ -20,7 +20,6 @@
   ],
   "author": "",
   "license": "ISC",
-
   "local-web-server": {
     "port": 8000
   }
