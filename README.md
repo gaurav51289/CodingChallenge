@@ -3,8 +3,8 @@
 ### Install & Run
 1. Make sure to have Node.js (v4.x.x and above) installed globally.
 2. Clone the repository
-  ```
-  $ git clone https://github.com/gaurav51289/CodingChallenge.git
+...```
+$ git clone https://github.com/gaurav51289/CodingChallenge.git
   ```
 3. Install dependencies
   ```
