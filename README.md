@@ -23,3 +23,5 @@ Use sidebar menu to select different charts.
     - Use the "Configure Chart" button to customize charts.
 - Bar Charts
 - Data Entry
+
+![Image of Live Charts Page](https://github.com/gaurav51289/CodingChallenge/CodingChallenge.jpg)
