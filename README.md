@@ -24,4 +24,4 @@ Use sidebar menu to select different charts.
 - Bar Charts
 - Data Entry
 
-![Image of Live Charts Page](https://github.com/gaurav51289/CodingChallenge/CodingChallenge.jpg)
+![Image of Live Charts Page](/CodingChallenge.png?raw=true "Perceptron D3")
