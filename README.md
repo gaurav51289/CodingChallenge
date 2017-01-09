@@ -8,7 +8,6 @@
   ```
 * Install dependencies
   ```
-  $ cd CodingChallenge
   $ npm install
   ```
 * Start server
