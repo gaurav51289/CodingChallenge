@@ -4,7 +4,7 @@
 * Make sure to have Node.js (v4.x.x and above) installed globally.
 * Clone the repository
   ```
-  $ git clone https://github.com/gaurav51289/CodingChallenge.git
+  $ git clone https://github.com/gaurav51289/ServerMonitorD3JS.git
   ```
 * Install dependencies
   ```
