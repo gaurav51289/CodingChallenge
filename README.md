@@ -1,4 +1,4 @@
-# Frontend Coding Challenge - Juniper Networks
+# Simple D3JS app for server monitor dashboard
 
 ### Install & Run
 * Make sure to have Node.js (v4.x.x and above) installed globally.
