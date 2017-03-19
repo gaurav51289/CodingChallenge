@@ -1,7 +1,7 @@
 {
-  "name": "code_challenge",
+  "name": "servermonitor",
   "version": "1.0.0",
-  "description": "a hands-on coding quiz used by Juniper Networks Contrail team",
+  "description": "A front-end server monitor app.",
   "main": "index.js",
   "dependencies": {
     "local-web-server": "^1.2.6"
